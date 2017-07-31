@@ -1,4 +1,4 @@
-package org.litecoinpool.miner;
+package org.txminer.miner;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -9,7 +9,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class Miner implements Observer {
-	//POOL URL
+	
+	//POOL URL ex litecoin, dogecooinm sia, coins usable on this code
 	private static final String DEFAULT_URL = "http://poolurl.com:port";
 	private static final String DEFAULT_AUTH = "USER:PASS";
 	private static final long DEFAULT_SCAN_TIME = 5000;
